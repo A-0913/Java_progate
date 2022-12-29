@@ -1,9 +1,14 @@
 class Main3 {
   public static void main(String[] args) {
-    printData(fullName("Kate", "Jones"), 27);
+    // fullNameメソッドの結果を変数nameに代入してください
+    String name = fullName("Kate", "Jones");
 
-    // fullNameメソッドを用いて、printDataの引数を書き換えてください
+    // printDataの引数を書き換えてください
+    printData(name, 27);
+
+    // こちらは書き換えないでください
     printData("John Christopher Smith", 65);
+
   }
 
   public static void printData(String name, int age) {
@@ -11,9 +16,9 @@ class Main3 {
     System.out.println("年齢は" + age + "歳です");
   }
 
-  public static String fullName(String firstName, String lastName) {
+  // fullNameメソッドを定義してください
+  public static String fullName(String firstName, String lastName){
     return firstName + " " + lastName;
   }
-
 
 }
