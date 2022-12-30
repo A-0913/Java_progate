@@ -7,11 +7,12 @@ class Main {
     System.out.print("名前：");
     String firstName = scanner.next();
 
-
     System.out.print("名字：");
     String lastName = scanner.next();
 
-    System.out.print("名前は" + firstName + lastName + "です");
+    String name = firstName + " " + lastName;
+
+    System.out.print("名前は" + name + "です");
 
   }
 }
