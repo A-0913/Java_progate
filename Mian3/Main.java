@@ -1,4 +1,4 @@
-class Main3 {
+class Main {
   public static void main(String[] args) {
     // fullNameメソッドの結果を変数nameに代入してください
     String name = fullName("Kate", "Jones");
