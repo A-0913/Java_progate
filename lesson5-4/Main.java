@@ -19,7 +19,7 @@ class Main {
     System.out.print("給油する量を入力してください：");
     int litre = scanner.nextInt();
     // chargeメソッドを呼び出して、引数にlitreを渡す
-    car. charge(litre);
+    car.charge(litre);
 
     System.out.println("=================");
     System.out.println("【自転車の情報】");
