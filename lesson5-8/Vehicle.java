@@ -1,7 +1,7 @@
 class Vehicle {
   private String name;
   private String color;
-  // protectedを用いて書き換える
+  // 3.protectedを用いて書き換える
   protected int distance = 0;
 
   Vehicle(String name, String color) {

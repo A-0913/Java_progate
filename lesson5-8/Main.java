@@ -11,7 +11,7 @@ class Main {
     System.out.println("-----------------");
     System.out.print("走る距離を入力してください：");
     int carDistance = scanner.nextInt();
-    // runメソッドを呼び出して、引数にcarDistanceを渡す
+    // 1.runメソッドを呼び出して、引数にcarDistanceを渡す
     car.run(carDistance);
 
     System.out.println("-----------------");
@@ -25,7 +25,7 @@ class Main {
     System.out.println("-----------------");
     System.out.print("走る距離を入力してください：");
     int bicycleDistance = scanner.nextInt();
-    // runメソッドを呼び出して、引数にbicycleDistanceを渡す
+    // 2.runメソッドを呼び出して、引数にbicycleDistanceを渡す
     bicycle.run(bicycleDistance);
 
   }
